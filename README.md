@@ -1,370 +1,839 @@
-demo site now [mirrored](https://weathered-bread-8229.on.fleek.co/) in [IPFS](https://github.com/ipfs/ipfs#quick-summary)!
+![Argon](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon_new_animate.svg)
 
-# Jekyll theme: Adam Blog 2.0
-by [Armando Maynez](https://github.com/amaynez) based on [V1.0](https://github.com/artemsheludko/adam-blog) by [Artem Sheludko](https://github.com/artemsheludko). 
+**简体中文** | [繁體中文](README_tw.md) | [English](README_en.md) | [Russian](README_ru.md)
 
-Adam Blog 2.0 is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+# Argon-Theme
+Argon - 轻盈、简洁、美观的 WordPress 主题
 
-### What is Jekyll?
+Hexo 版本 : [github.com/solstice23/hexo-theme-argon](https://github.com/solstice23/hexo-theme-argon)
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
+[![GitHub release](https://img.shields.io/github/v/release/solstice23/argon-theme?color=%235e72e4&style=for-the-badge)](https://github.com/solstice23/argon-theme/releases) [![GitHub All Releases](https://img.shields.io/github/downloads/solstice23/argon-theme/total?style=for-the-badge)](https://github.com/solstice23/argon-theme/releases) [![GitHub](https://img.shields.io/github/license/solstice23/argon-theme?color=blue&style=for-the-badge)](https://github.com/solstice23/argon-theme/blob/master/LICENSE) [![Author]( https://img.shields.io/badge/author-solstice23-yellow?style=for-the-badge)](https://github.com/solstice23) [![GitHub stars](https://img.shields.io/github/stars/solstice23/argon-theme?color=ff69b4&style=for-the-badge)](https://github.com/solstice23/argon-theme/stargazers)
 
-### Never Used Jekyll Before?
+[![GitHub last commit](https://img.shields.io/github/last-commit/solstice23/argon-theme?style=flat-square)](https://github.com/solstice23/argon-theme/commits/master) [![GitHub Release Date](https://img.shields.io/github/release-date/solstice23/argon-theme?style=flat-square)](https://github.com/solstice23/argon-theme/releases) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/solstice23/argon-theme?style=flat-square)
 
-The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
+# 状态
 
-## Features of v2.0:
-- SEO meta tags
-- Dark mode ([configurable in _config.yml file](https://github.com/the-mvm/the-mvm.github.io/blob/a8d4f781bfbc4107b4842433701d28f5bbf1c520/_config.yml#L10))
-- automatic [sitemap.xml](http://the-mvm.github.io/sitemap.xml)
-- automatic [archive page](http://the-mvm.github.io/archive/) with infinite scrolling capability
-- [new page](https://the-mvm.github.io/tag/?tag=Coding) of posts filtered by a single tag (without needing autopages from paginator V2), also with infinite scrolling
-- click to tweet functionality (just add a `<tweet> </tweet>` tag in your markdown.
-- custom and responsive [404 page](https://the-mvm.github.io/404.html)
-- responsive and automatic Table of Contents (optional per post)
-- read time per post automatically calculated
-- responsive post tags and social share icons (sticky or inline)
-- included linkedin, reddit and bandcamp icons
-- *copy link to clipboard* sharing option (and icon)
-- view on github link button (optional per post)
-- MathJax support (optional per post)
-- tag cloud in the home page
-- 'back to top' button
-- comments 'courtain' to mask the disqus interface until the user clicks on it ([configurable in _config.yml](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L13))
-- [CSS variables](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/assets/css/main.css#L8) to make it easy to customize all colors and fonts
-- added several themes for code syntax highlight [configurable from the _config.yml file](https://github.com/the-mvm/the-mvm.github.io/blob/e146070e9348c2e8f46cb90e3f0c6eb7b59c041a/_config.yml#L44).
-- responsive footer menu and footer logo ([if setup in the config file](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L7))
-- search shows results based on full post content, not just the description
-- smoother menu animations 
+> 重构初步完成，1.x 版本将冻结开发，PR 请提交到 [dev](https://github.com/solstice23/argon-theme/tree/dev) 分支。后续将逐渐重构前端代码。
 
-## Features preserved from v1.0
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome icons](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-## Demo
+# 特性
 
-[Check the theme in action](https://the-mvm.github.io/)
++ **轻盈美观** - 使用 Argon Design System 前端框架，细节精致，轻盈美观
++ **高度可定制化** - 可自定义主题色、布局(双栏/单栏/三栏)、顶栏、侧栏、Banner、背景图、日夜间模式不同背景、背景沉浸、浮动操作按钮等，提供了丰富的自定义选项
++ **夜间模式** - 支持日间、夜间、纯黑三种模式，并可以根据时间自动切换或跟随系统夜间模式
++ **功能繁多** - Tag 和分类统计、作者链接、额外链接、文章字数和预计阅读时间、文章过时信息显示
++ **Pjax** - 支持 Pjax 无刷新加载，提高浏览体验
++ **友情链接** - 支持使用 Wordpress 自带的链接管理器进行友链管理，支持多种友链样式
++ **"说说" 功能** - 随时发表想法，并在专门的 "说说" 页面展示，也支持说说和首页文章穿插
++ **评论功能扩展** - Ajax 评论，评论支持 Markdown、验证码、再次编辑、显示 UA、悄悄话模式、回复时邮件通知、查看编辑记录、无限加载等功能
++ **诸多功能** - 文章目录、阅读进度、Mathjax 或 Katex 公式解析、图片放大预览、Pangu.js 文本格式化、平滑滚动等
++ **丰富的短代码** - 支持通过短代码在文章中插入 TODO、标签、警告、提示、折叠区块、Github 信息卡、时间线、隐藏文本、视频等模块
++ **适配 Gutenberg 编辑器** - 支持使用 Gutenberg 编辑器可视化插入区块
++ **多语言** - 支持中文、英文、俄文等语言
++ **其他** - 自适应、精心优化的文章阅读界面 CSS、可切换衬线/非衬线字体、可自定义 CSS 和 JS、支持使用 CDN 加速静态文件访问、SEO 友好、Banner 打字动画、留言板页面、文章脚注等
 
-The main page looks like this:
+# 安装
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/homepage-responsive.jpg?raw=true">
+在 [Release](https://github.com/solstice23/argon-theme/releases) 页面下载 .zip 文件，在 WordPress 后台 "主题" 页面上传并安装。
 
-Dark mode selector in main menu:
+# 文档
 
-<img width="560px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/light-toggle.png?raw=true">
+[Argon-Theme 文档 : https://argon-docs.solstice23.top](https://argon-docs.solstice23.top/)
 
-The post page looks like:
+# Demo / 用户墙
 
-<img width="540px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post.jpg?raw=true">
-<img width="540px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post_bottom.jpg?raw=true">
+[solstice23.top](https://solstice23.top)
 
-Custom responsive 404:
+[argon-demo.solstice23.top](http://argon-demo.solstice23.top)
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/404-responsive.jpg?raw=true">
+前往 [Argon 用户墙](https://argon-showcase.solstice23.top/) 查看更多博客的主题效果。
 
-Dark mode looks like this:
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/homepage-dark.png?raw=true">
+# 注意
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post-dark.png?raw=true">
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post_bottom-dark.png?raw=true">
+Argon 使用 [GPL V3.0](https://github.com/solstice23/argon-theme/blob/master/LICENSE) 协议开源，请遵守此协议进行二次开发等。
 
-# Installation
+您**必须在页脚保留 Argon 主题的名称及其链接**，否则请不要使用 Argon 主题。
 
-## Local Installation
+您**可以删除**页脚的作者信息，但是**不能删除** Argon 主题的名称和链接。
 
-For a full local installation of Adam Blog 2.0, [download your own copy of Adam Blog 2.0](https://github.com/the-mvm/the-mvm.github.io/archive/refs/heads/main.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
+# 渲染
 
-If you're completely new to Jekyll, I recommend checking out the documentation at <https://jekyllrb.com/> or there's a tutorial by [Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
+![render1](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-1.jpg)
 
-If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file (or any other file) will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
+![render2](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-2.jpg)
 
-Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
+![render3](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-3.jpg)
 
-## GitHub Pages Installation
+![render4](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-4.jpg)
 
-### **STEP 1.**
-[Fork this repository](https://github.com/the-mvm/the-mvm.github.io/fork/) into your own account.
-
-#### Using Github Pages
-
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
-
- When forking, if you use as destination a repository named ``USERNAME.github.io`` then your url will be ``https://USERNAME.github.io/``, else ``https://USERNAME.github.io/REPONAME/``) and your site will be published to the gh-pages branch. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
-
-##### A configuration tweak if you're using a gh-pages branch
-
-In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
-
-This will require you to modify the `_config.yml` like so:
-
-```yml
-# Site settings
-title: Repo Name
-email: your_email@example.com
-author: Your Name
-description: "Repo description"
-baseurl: "/repo-name"
-url: "https://github-username.github.io"
-```
-
-This will ensure that the the correct relative path is constructed for your assets and posts.
-
-### **STEP 2.**
-Modify ``_config.yml`` file, located in the root directory, with your data.
-
-```YAML
-# Site settings
-title: The Title for Your Website
-description: 'A description of your blog'
-permalink: ':title:output_ext' # how the permalinks will behave
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "" # the logo for your site
-logo-icon: "" # a smaller logo, typically squared
-logo-icon-SEO: "" # must be a non SVG file, could be the same as the logo-icon
-
-# Night/Dark mode default mode is "auto", "auto" is for auto nightshift (19:00 - 07:00), "manual" is for manual toggle, and "on/off" is for default on/off. Whatever the user's choice is, it will supersede the default setting of the site and be kept during the visit (session). Only the dark mode setting is "manual", it will be always kept on every visit (i.e. no matter the browser is closed or not)
-night_mode: "auto"
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg" #if you want to display a different logo when in dark mode
-highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
-
-
-# Author settings
-author: Your Name # add your name
-author-pic: '' # a picture of you
-about-author: '' # a brief description of you
-
-# Contact links
-email: your@email.com # Add your Email address
-phone: # Add your Phone number
-website:  # Add your website
-linkedin:  # Add your Linkedin handle
-github:  # Add your Github handle
-twitter:  # Add your Twitter handle
-bandcamp:  # Add your Bandcamp username
-
-# Tracker
-analytics: # Google Analytics tag ID
-fbadmin: # Facebook ID admin
-
-# Paginate
-paginate: 6 # number of items to show in the main page
-paginate_path: 'page:num'
-words_per_minute: 200 # default words per minute to be considered when calculating the read time of the blog posts
-```
-### **STEP 3.**
-To configure the newsletter, please create an account in https://mailchimp.com, set up a web signup form and paste the link from the embed signup form in the `config.yml` file:
-```YAML
-# Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
-```
-
-### **STEP 4.**
-To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) with the same name as your site. Then, in `_config.yml`, edit the `disqus_identifier` value to enable.
-```YAML
-# Disqus
-discus_identifier:  # Add your discus identifier
-comments_curtain: yes # leave empty to show the disqus embed directly
-```
-More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
-
-### **STEP 5.**
-Customize the site colors. Modify `/assets/css/main.css` as follows:
-```CSS
-html {
-  --shadow:       rgba(32,30,30,.3);
-  --accent:       #DB504A;    /* accent */
-  --accent-dark:  #4e3e51;    /* accent 2 (dark) */
-  --main:         #326273;    /* main color */
-  --main-dim:     #879dab;    /* dimmed version of main color */
-  --text:         #201E1E;
-  --grey1:        #5F5E58;
-  --grey2:        #8D897C;
-  --grey3:        #B4B3A7;
-  --grey4:        #DAD7D2;
-  --grey5:        #F0EFED;
-  --background:   #ffffff;
-}
-
-html[data-theme="dark"]  {
-  --accent:       #d14c47;    /* accent */
-  --accent-dark:  #CD8A7A;    /* accent 2 (dark) */
-  --main:         #4C6567;    /* main color */
-  --main-dim:     #273335;    /* dimmed version of main color */
-  --text:         #B4B3A7;
-  --grey1:        #8D897C;
-  --grey2:        #827F73;
-  --grey3:        #76746A;
-  --grey4:        #66645D;
-  --grey5:        #4A4945;
-  --background:   #201E1E;
-  --shadow:       rgba(180,179,167,.3);
-}
-```
-### **STEP 6.**
-Customize the site fonts. Modify `/assets/css/main.css` as follows:
-```CSS
-...
-  --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
-  --font1-light:      400;
-  --font1-regular:    400;
-  --font1-bold:       600;
-  --font2-light:      200;
-  --font2-regular:    400;
-  --font2-bold:       700;
-...
-```
-If you change the fonts, you need to also modify `/_includes/head.html` as follows:
-Uncomment and change the following line with your new fonts and font weights:
-```HTML
-<link href="https://fonts.googleapis.com/css?family=Lora:400,600|Source+Sans+Pro:200,400,700" rel="stylesheet">
-```
-Delete everything within `<style></style>` just before the line above:
-```HTML
-<style>
-/* latin */
-@font-face {
-  font-family: 'Lora';
-  ...
-</style>
-```
-
-### **STEP 7.**
-
-You will find example posts in your `/_posts/` directory. Go ahead and edit any post and re-build the site to see your changes, for github pages, this happens automatically with every commit. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Adam Blog 2.0.
-
-The front matter options for each post are:
-```YAML
----
-layout: post #ensure this one stays like this
-read_time: true # calculate and show read time based on number of words
-show_date: true # show the date of the post
-title:  Your Blog Post Title
-date:   XXXX-XX-XX XX:XX:XX XXXX
-description: "The description of your blog post"
-img: # the path for the hero image, from the image folder (if the image is directly on the image folder, just the filename is needed)
-tags: [tags, of, your, post]
-author: Your Name
-github: username/reponame/ # set this to show a github button on the post
-toc: yes # leave empty or erase for no table of contents
----
-```
-Edit your blogpost using markdown. [Here is a good guide about how to use it.](https://www.markdownguide.org/)
-
-### **STEP 7.**
-Delete images inside of ``/assets/img/posts/`` and upload your own images for your posts.
-
-### **STEP 8.**
-Make sure Github Pages are turned on in the repository settings, and pointing to the main or master branch (where you cloned this repo).
-
-## Additional documentation
-
-### Directory Structure
-
-If you are familiar with Jekyll, then the Adam Blog 2.0 directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
-
-```bash
-Adam Blog 2.0/
-├── _includes                  # Theme includes
-├── _layouts                   # Theme layouts (see below for details)
-├── _posts                     # Where all your posts will go
-├── assets                     # Style sheets and images are found here
-|  ├── css                     # Style sheets go here
-|  |  └── _sass                # Folder containing SCSS files
-|  |  └── main.css             # Main SCSS file
-|  |  └── highlighter          # Style sheet for code syntax highlighting
-|  └── img                     # 
-|     └── posts                # Images go here
-├── _pages                     # Website pages (that are not posts)
-├── _config.yml                # Site settings
-├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
-├── index.html                 # Home page
-├── LICENSE.md                 # License for this theme
-├── README.md                  # Includes all of the documentation for this theme
-├── feed.xml                   # Generates atom file which Jekyll points to
-├── 404.html                   # custom and responsive 404 page
-├── all-posts.json             # database of all posts used for infinite scroll
-├── ipfs-404.html              # 404 page for IPFS
-├── posts-by-tag.json          # database of posts by tag
-├── robots.txt                 # SEO crawlers exclusion file
-├── search.json                # database of posts used for search
-└── sitemap.xml                # automatically generated sitemap for search engines
-```
-
-### Starting From Scratch
-
-To completely start from scratch, simply delete all the files in the `_posts`, `assets/img/posts` folders, and add your own content. Everything in the `_config.yml` file can be edited to suit your needs. Also change the `favicon.ico` file to your own favicon.
-
-### Click to tweet
-
-If you have a tweetable quote in your blog post and wish to feature it as a click to tweet block, you just have to use the `<tweet></tweet>` tags, everything between them will be converted in a click to tweet box.
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/ctt-markdown.png?raw=true">
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/ctt-render.png?raw=true">
-
-### Google Analytics
-
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `_config.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/).
-
-### Atom Feed
-
-Atom is supported by default through [jekyll-feed](https://github.com/jekyll/jekyll-feed). With jekyll-feed, you can set configuration variables such as 'title', 'description', and 'author', in the `_config.yml` file.
-
-Your atom feed file will be live at `https://your.site/feed.xml` [example](https://the-mvm.github.io/feed.xml).
-
-### Social Media Icons
-
-All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `_config.yml` file.
-
-### MathJax
-
-Adam Blog 2.0 comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1). Just add `Mathjax: yes` in the frontmatter of your post.
-
-```markdown
-<p style="text-align:center">
-\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).
-</p>
-```
-![rendered mathjax](/assets/img/template_screenshots/MathjaxRendered.jpg)
-
-
-### Syntax Highlighting
-
-Adam Blog 2.0 provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
-
-You can choose the color theme for the syntax highlight in the `_config.yml` file:
-```YAML
-highlight_theme: syntax-base16.monokai.dark # select a theme for the code highlighter
-```
-See the [highlighter directory](https://github.com/the-mvm/the-mvm.github.io/tree/main/assets/css/highlighter) for reference on the options.
-
-### Markdown
-
-Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/).
-
-## Everything Else
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-## Contributing
-
-If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/the-mvm/the-mvm.github.io/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
-
-Adam Blog 2.0 has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
-
-## Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to  [file a GitHub issue](https://github.com/the-mvm/the-mvm.github.io/issues/new).
+![render5](https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon-render-small-5.jpg)
+
+# Telegram 频道
+[t.me/argontheme](https://t.me/argontheme)
+
+自动推送更新消息以及其他关于 Argon 的消息
+
+# 更新日志
+
+## 20220319 v1.3.5
++ 支持自定义 CDN 域名
++ 支持读取 Post Views Counter 插件的阅读量数据
++ 修复未审核评论被显示的问题
++ 修复评论分页问题
++ 其他改进与修复
+
+## 20220214 v1.3.4
++ 支持自定义搜索过滤器顺序和默认选中状态
++ 支持添加自定义文章类型的搜索过滤器
++ 修复代码块样式问题
++ 其他改进与修复
+
+## 20220211 v1.3.3
++ 🌈 新增 后台管理界面美化 (在"用户-个人资料-管理界面配色方案" 或 "Argon设置-杂项" 中开启)
++ 新增 CF Worker 更新源，移除 jsdelivr 更新源
++ 支持短代码嵌套
++ 修复多站点下无法编辑主题设置的问题
++ 其他改进与修复
+
+## 20220207 v1.3.2
++ 使评论区第一页填满评论（评论分页方式为无限加载时）
++ 新增 `argon_html_before_wordcount` Filter
++ 修复代码块溢出边界的问题
++ 优化代码块控制栏可见性
++ 修复评论排序问题
++ 其他改进与修复
+
+## 20220205 v1.3.1
++ 📌 新增 评论置顶 功能（需要在选项中开启）
++ 子评论支持显示被回复者昵称
++ 同步 Highlight.js 高亮方案
++ 其他改进与修复
+
+## 20220203 v1.3.0
++ 🎨 新增 气氛色 选项：主题色全局沉浸（类似 Material You）
++ 新增 `argon_comment_extra_info` filter
++ 代码块行号默认不透明
++ 修复首页排除文章和 Tag 选项不生效的 Bug
++ 修复友情链接页面显示错误
++ 修复评论区表单验证问题
++ 修复 session 干扰 REST API 回环问题
++ 修复开启衬线字体后代码块显示问题
++ 修复后台媒体库不能搜索问题
++ 其他改进与修复
+
+## 20220106 v1.2.10
++ 新增通过 Ajax 获取验证码以绕过 CDN 缓存选项
++ 说说预览显示赞数和评论数，优化折叠样式
++ 修复编辑器某些功能的失效
++ 修复评论提醒邮件格式错误
++ 修复 Pangu.js 某些页面不应用
++ 修复搜索结果切换筛选器后页数不重置
++ 修复搜索结果说说预览图片不显示问题
++ 修复 Pjax 右侧栏不刷新的问题
++ 繁体中文翻译修正
++ UI 细节修复与调整
++ 其他修复与改进
+
+## 20211205 v1.2.9
++ 增加搜索过滤器（支持搜索说说）
++ 支持折叠过长说说
++ 修改单篇文章过时信息显示时不覆盖最后编辑时间
++ 其他修复与改进
+
+## 20211121 v1.2.8
++ 完善文章字数统计，新增代码行数统计和时间计算
++ 修复字数统计问题
++ 新增 "站点概览额外内容" 工具栏
++ 加密文章输入密码前不获取第一张图片作为头图
++ 修复单栏下顶栏不自动折叠的问题
++ 修复 UI 瑕疵
++ 其他修复与改进
+
+## 20211024 v1.2.7
++ 适配侧栏 Wordpress 归档日历
++ 站点概览增加作者个人介绍选项
++ 增加 AHCDN ([#284](https://github.com/solstice23/argon-theme/issues/284))
++ 增加 2 个 Filter (404 页面额外 HTML、Banner 标题 HTML)
++ 归档时间轴页面增加对应年月链接
++ 其他修复与改进
+
+## 20211001 v1.2.6
++ 优化归档时间轴页面，支持按月分节，支持左侧栏跳转和目录
++ 适配区块左侧栏，文字头像支持全局
++ 优化全屏封面时浮动操作栏、Pjax 等体验
++ Url Hash 指向的评论突出显示
++ 优化滚动动画曲线
++ 修复 Session 初始化问题
++ 其他微调和修复
+
+## 20210905 v1.2.5
++ 滚动条沉浸
++ Banner 显示状态新增全屏选项（Banner 可全屏作为封面）
++ 更正翻译
+
+## 20210815 v1.2.4
++ 新增 Banner 显示状态选项（新增隐藏 Banner、迷你 Banner）
++ 新增顶栏显示状态选项 （新增顶栏不随页面滚动）
++ 新增顶栏毛玻璃选项
++ 优化单栏布局
++ 修复瀑布流图片加载后排版问题
++ 修复瀑布流布局显示错位
++ 修复头图 Lazyload 的 BUG
+
+
+## 20210810 v1.2.3
++ 新增文章列表瀑布流布局
++ 修复代码不折行的 BUG
++ 博客副标题加入打字动画
++ 修复标题打字动画结束后光标瞬间闪烁问题、打字动画中止问题
++ 修复未填写邮箱时文字头像显示错误
++ 修复夜间模式下代码块显示问题
++ 修复夜间模式评论点赞后不显示
+
+## 20210804 v1.2.2
++ 新增评论点赞功能
++ 增加一种文章列表卡片样式
++ 改进阅读进度浮动按钮显示逻辑
++ 修复 "Tab 面板" Gutenberg 组件有概率无法切换的 BUG
++ 修复夜间模式背景不切换的 BUG
++ 其他修复与改进
+
+## 20210803 v1.2.1
++ 增加 "Tab 面板" Gutenberg 区块
++ 修复夜间模式的显示问题
++ 修复 Gutenberg 编辑器区块图标不显示的问题
++ 新增页面背景 Filter
+
+## 20210724 v1.2.0
++ 适配 Gutenberg 编辑器，支持通过编辑器可视化插入提示、警告、折叠块、时间线、Todo List 等区块
++ 增加文章过时信息单独设置选项
++ 更改夜间模式选择文字时的背景色
++ 增加文章预览截取字数选项
++ 修复与 Gutenberg 编辑器的兼容问题
++ 其他小改动
+
+## 20210706 v1.1.9
++ 增加一种文章列表卡片样式
++ 新增若干 Filters
++ 修复 Gutenberg 编辑器区块的显示错误问题
++ 支持 og-image Meta
++ 其他 BUG 修复
+
+## 20210508 v1.1.8
++ 代码高亮增加更多默认选项
++ 新增若干 [Filters](https://argon-docs.solstice23.top/#/filters)
++ 修复相似文章 UI 细节问题
++ 修复说说显示错误
++ 侧栏 分类/Tag 隐藏 空分类/Tag
++ 允许隐藏顶栏标题
++ 修复访问统计问题
++ 修复与 Live2D 与 Code Syntax Block 插件的兼容问题
++ 其他 BUG 修复
+
+## 20210219 v1.1.7
++ 修复 Mathjax v2 Pjax 加载后不渲染问题
++ 修复字数统计错误问题
++ 更改文末推荐文章列表样式
++ 分享功能支持只显示国内/国外/全部社交媒体
+
+## 20210208 v1.1.6
++ 修复代码行数显示错误
++ 修复 RSS 问题
++ 修复 REST API 错误
++ 完善翻译
++ 修复一些显示问题
++ 更新 版本号
+
+## 20201220 v1.1.5
++ 文章目录聚焦时会自动滚动
++ 适配 PHP 8
++ 修复评论文字头像加载错误问题
++ 修复错误
+
+## 20201114 v1.1.4
++ 修复脚注重复的问题
++ 新增对重复脚注的处理
++ 新增代码高亮方案
++ 更新 Highlight.js 到 v10.4.0
+
+## 20201114 v1.1.3
++ 支持脚注短代码 (ref)
++ 修复文章字数统计错误
++ 修复文章目录跳转问题
++ 修复验证码问题
++ UI 微调和其他改进
+
+## 20201025 v1.1.2
++ 回滚 HTML Parse 代码
++ 修复 Fancybox 导致的一系列显示错误问题
++ 合并移动端割裂的 UI
++ 增加禁用 Google 字体选项
++ 修复关闭 Lazyload 时首页文章头图无法加载的问题
+
+## 20201024 v1.1.1
++ 修复 Fancybox 可能会出现的 HTML Tag 提前闭合问题
+
+## 20201018 v1.1.0
++ 图片缩放预览库由 Zoomify 更换为 Fancybox (仍保留 Zoomify 选项)
++ 优化评论区图片体验
++ 修复特定屏幕尺寸下侧栏边距问题
++ 其他优化
+
+## 20201005 v1.0.4
++ 修复手机版顶栏折叠菜单图标间距问题
++ 设置页增加快速回顶和回底按钮
+
+## 20200920 v1.0.3
++ 修复评论回复和 Pjax 冲突
++ 博主登录后自动填充加密文章密码
+
+## 20200830 v1.0.2
++ 增加 双栏(反转) 页面布局
++ 修复和优化文章字数统计
+
+## 20200824 v1.0.1
++ 增加 "评论文字头像" 选项（为无头像评论者生成一个纯色文字头像）
++ Github 短代码新增 Mini 尺寸
+
+## 20200823 v1.0.0
++ 正式版
+
+## 20200821 v0.999.beta.8
++ 优化字数统计和预计阅读时间计算方法，中英文分别统计，并排除代码块
++ 新增 "文章内标题样式" 选项
++ 修复一些代码错误
++ 评论区中表情支持放大查看
++ 夜间模式细节优化
++ 修复手机表情键盘溢出屏幕问题
++ 优化 UI 细节
+
+## 20200819 v0.999.beta.7
++ 修复 WP Super Cache 和 Argon 不兼容的问题
++ 优化左侧栏 "功能" Tab 样式
++ 增加推荐相似文章数量选项
+
+## 20200819 v0.999.beta.6
++ 移除 V2EX Gravatar CDN 选项
++ 增加自定义 Gravatar CDN 选项
++ 修复 Lazyload 加载不出的 BUG
++ 优化无头像的友情链接的显示
++ 修复首页说说中的视频的显示问题
++ 优化侧栏过长 Link 的显示
+
+## 20200818 v0.999.beta.5
++ 增加 "相似文章推荐" 选项
++ 修复文章第一张图片无法作为头图的 BUG
++ 修复文章修改时间显示错误的问题
++ 优化赞赏二维码显示尺寸
+
+## 20200817 v0.999.beta.4
++ 增加文末附加信息选项
++ 表情键盘支持长按预览表情
++ 修复 Emoji 和部分表情无法输入的问题
++ 修复回复评论时显示错误的 BUG
+
+## 20200813 v0.999.beta.3
++ 修复较深颜色作为主题色时夜间模式下的对比度问题
++ 修复文章中 WP 引用卡片溢出问题
++ 修复小屏幕时评论区显示重叠问题
+
+## 20200812 v0.999.beta.2
++ 评论支持发表情
++ 增加评论区表情键盘
++ 文章头图支持 Lazyload
++ 修复 Lazyload 重复加载问题
++ 修复 Wordpress 5.0 以下的兼容性问题
+
+## 20200809 v0.999.beta.1
++ 更换 Pjax 方案为 [jquery-pjax](https://github.com/defunkt/jquery-pjax/) 魔改后的版本 [jquery-pjax-plus](https://github.com/solstice23/jquery-pjax-plus)
++ 解决 Pjax 一些兼容性问题，修复之前 Pjax 后退定位的 BUG
++ 支持滚动时自动折叠顶栏（新增该设置项）
++ 其他一些优化
+
+## 20200807 v0.994
++ 支持将文章中第一张图片设为头图，支持每篇文章单独设置和跟随全局
++ 更改评论区 Markdown 图片解析逻辑，增强兼容性
+
+## 20200806 v0.993
++ 增加繁体中文翻译
+
+## 20200805 v0.992
++ Add Russian Translation (By [ostiwe](https://github.com/ostiwe))
++ 增加俄文翻译
+
+## 20200801 v0.991
++ 修复 more 标签字数统计错误的问题
++ 完善英文翻译
++ 其他一些修改
+
+## 20200729 v0.990
++ Add English Translation
++ 完善英文翻译
+
+## 20200728 v0.980
++ Add English Translation (Unfinished)
++ 增加英文翻译（未完成）
++ 修复图片组第一张图片加载不出的 BUG
++ 修复折叠块中图片 Lazyload 不自动加载的 BUG
++ 其他修改
+
+## 20200713 v0.971
++ 修 BUG
+
+## 20200713 v0.970
++ 文章 Meta 信息支持自定义是否显示和顺序
++ 增加 fastgit 更新源
++ 修 BUG
++ 其他一堆更改记不清了
+
+## 20200613 v0.962.1
++ 修复折叠后评论未适配夜间模式问题
+
+## 20200601 v0.962
++ 增加过长评论自动折叠选项
++ 修改 Lazyload、Zoomify 等的初始化方式（不再以 script 标签内联在文章中）
+
+## 20200521 v0.961
++ 新增首页隐藏特定分类文章选项
++ 新增文章 Meta 显示作者选项
++ 优化分类、标签和文章中的 SEO Keywords
++ 其他小改进
+
+## 20200518 v0.960
++ 新增三栏布局模式
+
+## 20200517 v0.958
++ 评论区时间显示实时更新
++ 优化评论区时间格式
++ 修复判断文章是否需要目录错误的 BUG
+
+## 20200511 v0.957.1
++ 修 BUG
+
+## 20200511 v0.957
++ 支持给每篇文章插入自定义 CSS
++ 修 BUG
+
+## 20200509 v0.956.1
++ 修复首页说说图片宽度溢出的问题
+
+## 20200509 v0.956
++ 修复首页显示的说说不显示图片的 BUG
++ 修复夜间模式切换的一个 BUG
+
+## 20200503 v0.955
++ 404 页适配夜间模式和暗黑模式
++ 侧栏菜单适配新标签页打开选项
++ 支持可选的加密文章密码提示 (新建名为 `password_hint` 的 Meta 项)
++ 修复说说标题过长溢出问题
+
+## 20200501 v0.954
++ 增加 "美化登录界面" 选项 (Wordpress 登录界面 Argon Design 化)
++ 修复 QQ 号获取的头像在后台显示异常问题
+
+## 20200429 v0.953
++ 增加评论根据 QQ 号获取头像选项
++ 修复单行代码高亮的复制等问题
++ 修复代码块复制错误的 BUG
++ 调整代码块过大的边距
+
+## 20200425 v0.951
++ 经典编辑器中增加插入代码块按钮和短代码快捷按钮
++ 优化代码高亮
++ 适配图片说明
+
+## 20200424 v0.950
++ 内置 Highlight.js 代码高亮
+	+ Mac 风格
+	+ 支持行号
+	+ 支持复制代码、切换行号显示、切换自动折行、全屏
+
+## 20200418 v0.944
++ 增加默认字体选项
++ 增加默认阴影大小选项
++ 修复文章过时信息时差问题
+
+## 20200413 v0.943.1
++ 修复 Pjax 的一个问题
+
+## 20200412 v0.943
++ 增加归档时间轴页面模板
++ 侧栏格言支持调用一言 API
++ 增加对 Wordpress 子目录安装方式的兼容性适配选项
++ 修复和 Prism.js 的一个兼容性问题
++ 修复侧栏图标不对齐问题
+
+## 20200411 v0.941
++ 修复评论 UA 图标错误的 BUG
++ 修复评论编辑历史记录显示错误的 BUG
+
+## 20200409 v0.940
++ 新增评论区 UA 显示选项
++ 新增 Katex 数学解析方案
+
+## 20200407 v0.931
++ 修复新旧版本 `Parsedown` 类库冲突的问题
++ 修复小 BUG
+
+## 20200405 v0.930
++ 左侧栏顶部菜单支持无限层级嵌套子菜单
+
+## 20200404 v0.925
++ Github 短代码增加可选的后端获取模式
++ 修复 "暗化" 滤镜不生效的问题
+
+## 20200403 v0.924
++ 修复顶栏菜单 "在新标签页打开" 选项不生效的 BUG
+
+## 20200401 v0.923
++ 修复设置顶栏图标后手机端排版的问题
+
+## 20200331 v0.922
++ 修复评论编辑历史记录时间显示错误的问题
+
+## 20200330 v0.921
++ 修复评论编辑历史记录的 BUG
++ 优化搜索逻辑
+
+## 20200330 v0.920
++ 增加查看评论编辑历史记录功能
++ 增加 "谁可以查看评论编辑记录" 选项
++ 赞赏二维码弹框移到赞赏按钮上方
++ 修复分类中文章总数统计错误的 BUG
+
+## 20200326 v0.914
++ 修复评论相关的一些小 BUG
+
+## 20200325 v0.913
++ 夜间模式时间调整 (21:00 改为 22:00)
++ 修复小问题
+
+## 20200324 v0.912
++ 增加 Pangu.js 文本格式化选项
++ 需要密码的文章支持 Ajax 加载
+
+## 20200323 v0.911
++ 增加单栏模式
+
+## 20200322 v0.910
++ 评论区支持分页
++ 新增 "无限加载" 和 "页码" 两种评论分页方式
++ 重写评论模块代码
++ 评论发送后改为局部刷新评论区
++ 优化评论/编辑体验
++ 优化其他一堆细节
+
+## 20200321 v0.902
++ 新增新的友情链接短代码
++ 友情链接改为从 Wordpress 链接管理器中读取
++ 启用 Wordpress 链接管理器
++ 旧的友情链接短代码改名为 `sfriendlinks`
++ 评论会自动填充上一次的姓名、邮箱、网站输入框的内容
++ 增加 "评论时默认勾选 '启用邮件通知'' 复选框" 选项
++ 文章设置新增 "隐藏文章发布时间和分类" 选项
++ 更改说说文章页面 URL
+
+⚠ 在该版本中，友情链接改为从 Wordpress 链接管理器中读取。请将友情链接迁移至 Wordpress 链接管理器中，或将原先的友链短代码改为 `sfriendlinks`。
+
+## 20200319 v0.901
++ 评论通知邮件支持退订
++ 优化评论通知发送邮件逻辑
++ 评论 Markdown 增加对标题、有序列表和无序列表的支持
++ 手机端 UI 微调
++ 优化手机端交互体验微调
++ 修了评论的一堆 BUG
+
+## 20200318 v0.900
++ 评论允许发送者再次编辑（可选）
++ 评论增加悄悄话模式（可选）
++ 评论增加回复时邮件通知模式（可选）
++ 优化文章访问量统计逻辑
++ 其他的一些优化和调整
+
+## 20200315 v0.891
++ 修 BUG
+
+## 20200315 v0.890
++ Argon 设置增加 导入/导出 功能
++ 新增日间/夜间模式不同背景选项
++ 新增 Banner 标题打字动画选项
++ 增加 jsdelivr 更新源
++ 修复一个重大 BUG
+
+## 20200314 v0.885
++ 新增文章过时信息提示选项
++ 增加在浮动按钮栏显示跳到评论区按钮选项
++ 增加 Banner 遮罩和 Banner 标题阴影选项
++ 修复手机上的一系列小问题
++ 略微优化后台设置界面
+
+## 20200310 v0.884
++ 增加夜间模式的另一种配色: 暗黑 (AMOLED Black)
++ 修复夜间模式相关的 BUG
+
+## 20200309 v0.883
++ 修复过渡动画的一个问题
+
+## 20200309 v0.882
++ 修复首页显示说说选项开启后，置顶文章不能正常显示的 BUG
+
+## 20200309 v0.881
++ 修 BUG
+
+## 20200309 v0.880
++ 增加夜间模式切换方案 (默认日间/默认夜间/跟随系统自动切换/根据时间自动切换)
++ 优化性能
++ 修 BUG
+
+## 20200308 v0.873
++ 优化侧栏的搜索体验
++ 修复 Safari 上的渲染问题
+
+## 20200306 v0.872
++ 修复 Safari 上的一系列显示问题
++ 修复点击导航栏时高度跳动的 BUG
++ 略微优化性能
+
+## 20200306 v0.871
++ BUG 修复
+
+## 20200306 v0.870
++ 优化顶栏搜索体验，将搜索框嵌入导航栏中，同时搜索支持 Pjax
++ 增加首页文章和说说同时显示的选项
++ 修复 Safari 上的一个性能问题
++ 增加评论禁用 Markdown 选项
++ 优化手机端阅读体验
++ 手机端浮动按钮增加透明度
++ 修复偶现的 Tooltip 乱码问题
++ 修复手机点击导航栏链接菜单不会自动关闭的问题
++ 修复其他小问题
+
+## 20200303 v0.860
++ 编辑文章界面侧栏增加 "隐藏字数及阅读时间提示 Meta 信息" 选项
++ 优化夜间模式相关逻辑
++ 修复赞赏二维码的显示和过渡动画问题
++ 增加禁用 Pjax 选项
++ 修复 BUG
+
+## 20200229 v0.852
++ 友情链接短代码增加随机顺序可选参数
+
+## 20200228 v0.851
++ 修复手机端侧栏的一系列问题
++ 优化开启公告时手机端的显示效果
++ 优化手机端评论区的阅读体验
++ 增加 `noshortcode` 短代码
++ 优化浮动操作按钮菜单中恢复默认圆角大小按钮的提示
+
+## 20200225 v0.850
++ Argon 选项中增加自定义默认卡片圆角大小设置
++ 浮动操作按钮菜单中增加了自定义圆角大小滑块
++ 优化评论区图片打开的动画曲线
++ 微调 UI 细节
++ 修复代码块和某些插件样式冲突的问题
+
+## 20200223 v0.845
++ 修复以前手滑遗留的在新标签页打开问题
+
+## 20200222 v0.844
++ 默认显示页脚作者信息，在 Argon 设置中增加了隐藏页脚作者信息的选项
+
+## 20200222 v0.843
++ 修复顶栏二级菜单点击时菜单项高度跳动的 BUG
++ 细节修复
++ 删除页脚作者信息，只保留主题名称和链接
+
+## 20200219 v0.842
++ 添加 Mathjax 2，现在有 Mathjax 3 和 2 两个版本可以选择
+
+## 20200217 v0.841
++ 增加 "留言板" 页面模板
++ 修复浮动操作按钮与 Font Awesome 5 的类名冲突兼容问题
++ 修复夜间模式的一个小 BUG
++ 进一步完善 Pjax 逻辑
+
+## 20200215 v0.840
++ 修复开启 "评论作者必须填入姓名和电子邮件地址" 选项后未填写名称无法发送评论的错误
++ 增加隐藏发送评论区中 "作者名称"、"邮件"、"网站" 输入框的选项
++ 增加禁用评论验证码的选项
++ 修复 Pjax 的几个 BUG
++ 完善 Pjax 逻辑，实现了近乎完美的 Pjax 体验
++ 增加 "博客 Banner 副标题" 设置选项，显示在 Banner 标题下方
++ 优化手机端有头图的博文的显示效果
++ 修复暗色滤镜与背景冲突的 BUG
++ 完善了手机端夜间模式的适配
++ 加入 "暂停更新" 选项，位于 "检测更新源" 选项中
++ 加入了 "博文发布时间"、"博文最后修改时间" 短代码
++ 一系列微调和优化
+
+## 20200210 v0.830
++ 增加评论区 Markdown 支持
++ 优化夜间模式在页面刚载入时的体验
+
+## 20200206 v0.820
++ 增加博客背景图片设置选项
++ 增加 沉浸式 Banner (透明) 和 毛玻璃 Banner 选项 来增强背景图片的显示效果
+
+## 20200205 v0.810
++ BUG 修复
+
+## 20200128 v0.800
++ 大幅提升前端加载速度
++ SEO 优化
++ 增加 SEO Description Meta 标签和 Keywords Meta 标签设置选项
++ 增强页面可访问性，优化无障碍体验
++ 修复一些问题
++ 针对打印进行优化
+
+## 20200125 v0.703
++ Github 用户名更换适配
+
+## 20200125 v0.702
++ 修复图片全屏预览选项关闭后无效的 BUG
+
+## 20200123 v0.701
++ 修复不显示自定义主题色选择器时 js 的执行错误
+
+## 20200123 v0.700
++ 增加前端自定义主题色功能（用户在浮动操作按钮博客设置菜单中可自定义主题色）
++ 问题修复
+
+## 20200121 v0.610
++ 重构切换主题功能
++ 修复 CSS 的一堆问题
++ 修复 Pjax 带 `target="blank"` 属性的 `a` 标签在本页打开的问题
++ 一些小改进
+
+## 20200116 v0.601
++ 进一步适配主题色 (如滚动条颜色，`a` 标签下划线颜色等)
+
+## 20200116 v0.600
++ 增加博客主题色选项，可自定义主题色
++ 增加 SEO Meta 标签
++ 修复 Pjax 的一个 BUG
+
+## 20200105 v0.597
++ 修复之前没发现的一个无关紧要的小问题
+
+## 20200104
++ 更改协议为 GPL V3.0
+
+## 20191231 v0.596
++ 修复设置界面的小问题
+
+## 20191221 v0.595
++ 平滑滚动增加脉冲式滚动的选项 (Edge 式滚动)
+
+## 20191216 v0.594
++ Argon 后台设置增加浮动目录
++ 增加文章目录显示序号选项
++ 修复左侧栏 Tab 的显示问题
++ 修复左侧栏浮动时在特定屏幕尺寸下的显示问题
+
+## 20191214 v0.593
++ 博客设置增加阴影选项
++ 修复界面的一些问题
++ 修复其他的一些小问题
++ 升级 Argon 框架到 1.1.0 版本
+
+## 20191214 v0.592
++ 加入博客设置功能
+	+ 位于浮动操作按钮栏
+	+ 设置选项：夜间模式、字体（衬线/无衬线）、页面滤镜
+	+ 默认关闭浮动操作按钮栏的夜间模式切换按钮（与设置菜单中重复），可以在 Argon 设置中手动开启
++ 微调 CSS
++ 其他小改动
+
+## 20191204 v0.591
++ 增加进入文章过渡动画选项（测试）
+
+## 20191111 v0.590
++ 增加博客公告功能
+
+## 20191107 v0.582
++ 修复未开启 Mathjax 选项时 Pjax 错误的问题
+
+## 20191104 v0.581
++ 支持切换主题更新源
++ 修复 CSS 一个小问题
+
+## 20191104 v0.58
++ 优化设置页面
++ 修复评论框高度错误问题
+
+## 20191029 v0.57
++ 增加 题图(特色图片) 的支持
+
+## 20191026 v0.56
++ 提升 Mathjax 版本到 3.0
++ 更换默认 Mathjax CDN
++ 允许自定义 Mathjax CDN
++ 修复由于 Mathjax 文件未加载成功导致 Pjax 错误的问题
+
+## 20191023 v0.55
++ 修复手机端侧栏的小问题
++ 提升后台管理中"Argon 主题选项"菜单层级
++ 采用新的检测更新库，修复更新问题
++ 其他细节调整
+
+## 20191017 v0.54
++ 修改手机端侧栏效果
++ 合并 CSS 文件
++ 细节微调
++ 修改加密博客阅读量统计逻辑
+
+## 20191014 v0.53
++ 增加赞赏二维码选项
++ 增加视频短代码
++ 修改 Pjax 逻辑
++ 增加首页文章浏览不显示短代码选项
++ 修复夜间模式的一个小问题
+
+## 20191013 v0.52
++ 增加安装统计
++ 增加时区修复
+
+## 20191012 v0.51
++ "说说"增加点赞功能
++ 微调弹出提示的样式
+
+## 20191010 v0.5
++ 增加 "说说" 功能
++ 增加 Github Repo 信息短代码
++ 细节修改
+
+## 20190923 v0.4
++ 如果某个菜单没配置，会默认隐藏，不再会影响观感
++ 修复了检测更新的一个问题
++ 增加"隐藏文字"短代码，在鼠标移上时才会显示
++ 修复图片放大模糊的问题
++ Banner 支持必应每日一图
++ 适配 Android Chrome Toolbar 颜色
++ 待审核评论会打上标签提示发送者
++ 修复 Pjax 加载后评论框大小不随内容调整的 BUG
++ 夜间模式全屏放大图片图片颜色不会变暗了
++ 修复了 CSS 的一些问题
++ 修复其他一些小问题
+
+## 20190907 v0.31
++ 修复调试时遗留下来的一个 BUG
+
+## 20190904 v0.3
++ Pjax 加载时替换 WordPress Adminbar
++ 修复后台评论提示验证码错误问题
++ 手机减小文章页面 margin
++ Pjax 加载逻辑修改
++ 博主评论免验证码
+
+## 20190829 v0.2
++ 修复一些 BUG
++ checkbox 增加可选的 `inline` 属性
++ 针对 Wordpress 管理条进行处理
++ 修复夜间模式的一些问题
++ 修改一些细节
+
+# 捐赠
+如果你觉得 Argon 主题不错，可以请我一杯咖啡来支持我的开发。
+
+![微信捐赠码](https://img.solstice23.top/2020/03/07/fc4b804bf938b.png)
