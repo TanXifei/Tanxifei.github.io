@@ -1,176 +1,89 @@
-# HANUMAN Jekyll Theme
+# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
-[![Build Status](https://travis-ci.org/samanyougarg/hanuman.svg?branch=master)](https://travis-ci.org/samanyougarg/hanuman)
+[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
+[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
+[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
 
-Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-It is built using the open source [AMP Start framework](https://www.ampstart.com/) and can be customized as per your requirements.
+![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
 
-<a href="https://www.buymeacoffee.com/samanyougarg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" target="_blank"></a>
+TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
-## Live Demo
-## [Hanuman](https://samanyougarg.com/hanuman)
-![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
-
+**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
 
 ## Features
 
-- Minimal
 - Responsive
-- Syntax Highlighting for code
-- Cover Images for homepage and blog posts
-- Social Sharing
-- Simple Navigation Menu
-- Pagination
-- Google Analytics
-- Can be easily installed via "theme gem"
-- Github Pages support
-- Easily Customisable
-- Tags
-- Multiple Authors
+- Semantic HTML
+- Skins
+- Highlight Theme
+- Internationalization
+- Search
+- Table of contents
+- Authors
+- Additional styles (alert, tag, image, icon, button, grid, etc)
+- Extensions (audios, videos, slides, demos)
+- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
+- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
+- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
+- Pageview ([LeanCloud](https://leancloud.cn/))
+- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
+- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
 
-## What is AMP
+## Skins
 
-AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
+TeXt has 6 built-in skins, you can also set up your own skin.
 
-## Installation
+| `default` | `dark` | `forest` |
+| --- |  --- | --- |
+| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
 
-There are different ways to install the theme -
+| `ocean` | `chocolate` | `orange` |
+| --- |  --- | --- |
+| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
 
-### 1. Cloning the repository and updating settings
-1. Fork this repository and clone the forked repository.
-2. Update the _config.yml file as per your requirements.
-3. Add your posts to the _posts directory.
-4. Deploy to Github Pages or your own server.
+### Highlight Theme
 
-#### Deploying to Github Pages
-**Method 1**
+TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
 
-Push the contents of the destination folder (mentioned in _config.yml. eg - destination: ../hanuman-pages/) to the gh-pages branch(if project page) or master branch(if user page) of your repository.
+| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
+| --- |  --- | --- | --- |  --- |
+| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
 
-**Method 2**
+## Documentation
 
-- Set up travis-ci for your fork.
-- Generate your secure token with the travis gem:
-  Run `gem install travis` on your terminal.
-- Grab the GH_TOKEN from https://github.com/settings/tokens
-- Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
-- Add the token to your .travis.yml file.
-Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch.
-This is the setup I am using.
+### Start
 
-### 2. Ruby Gem Method
-Add this line to your Jekyll site's `Gemfile`:
+- [Quick Start](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start)
+- [Update from 1.x to 2.x](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
 
-```ruby
-gem "hanuman"
-```
+### Customization
 
-And add this line to your Jekyll site's `_config.yml`:
+- [Configuration](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/configuration)
+- [Navigation](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/navigation)
+- [Layouts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/layouts)
+- [Logo and Favicon](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/logo-and-favicon)
+- [Authors](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/authors)
+- [Internationalization](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/i18n)
 
-```yaml
-theme: hanuman
-```
+### Content
 
-And then execute:
+- [Writing Posts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/writing-posts)
+- [Additional styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
+- [Extensions](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions)
+- [Markdown Enhancements](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/markdown-enhancements)
 
-    $ bundle
+## Demo Pages
 
-Or install it yourself as:
-
-    $ gem install hanuman
-
-You'll also need to copy or create the _config.yml file just like in this repository. Similarly, you'll need to have a navigation.yml and author.yml in your _data directory.
-
-#### Deploying to Github Pages
-Run `bundle exec jekyll serve` inside your cloned repository. Push the contents of the resulting _site to your Github Pages repository.
-
-
-### 3. Jekyll Remote Theme
-1. Create or update your Gemfile with the following -
-
-```ruby
-source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
-```
-
-2. Update the bundled gems using `bundle` command.
-
-3. Add `remote_theme: "hanuman"` to your `_config.yml`.
-
-4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` -
-
-```yaml
-plugins:
-  - jekyll-remote-theme
-```
-
-## Usage
-
-### _config.yml
-Update _config.yml with your respective settings like updating your site's name, description etc...
-
-### Styling
-AMP has a limitation that you can only use inline css.
-All the CSS for this theme is in the styles.scss file in the includes directory.
-
-#### Changing the Default Color
-In the styles.scss file in the includes directory, you can change the hex value of $theme-color to the color you would like your site to use.
-
-### Author Information
-Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
-
-### Sidenav
-Sidenav can be updated from the navigation.yml file in the _data folder.
-
-## Writing Posts
-You can write posts just as you would in Jekyll, the only difference being that AMP has some strict guidelines on including external content.
-
-You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
-
-### Examples -
-
-**Images**
-`<amp-img src="welcome.jpg" alt="Welcome" height="400" width="800"></amp-img>`
-
-**Videos**
-`<amp-youtube data-videoid="mGENRKrdoGY" layout="responsive" width="480" height="270"></amp-youtube>`
-
-[See Full AMP Documentation.](https://www.ampproject.org/docs/)
-
-### Using AMP Components
-Some AMP components require you to specify external scripts before using them.
-You can specify these scripts in the head.html file in the includes directory after the already imported scripts and then use these components in any post.
-
-## Validating your page with AMP
-AMP provides built-in validator to validate your pages so that they can rendered quickly.
-
-You can access this validator by opening the Developer Console in your browser and adding #development=1 to any url of your site.
-
-Example -
-http://localhost:4000/#development=1
-
-If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
-
-## Enabling Google Analytics
-1. Set up your Analytics Tracking ID in _config.yml.
-2. Remove {% comment %} and {% endcomment %} tags in the default.html file in layouts directory.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/samanyougarg/hanuman. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-To submit a pull request -
-
-1. Fork/clone the repository.
-2. Develop.
-3. Create a new branch from the master branch.
-4. Open a pull request on Github describing what was fixed or added.
-
-## Thanks
-Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
+| Name | Description |
+| --- | --- |
+| [Home](https://kitian616.github.io/jekyll-TeXt-theme/test/) | Home page |
+| [Archive](https://kitian616.github.io/jekyll-TeXt-theme/archive.html) | Archive page |
+| [Layout Examples](https://kitian616.github.io/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
