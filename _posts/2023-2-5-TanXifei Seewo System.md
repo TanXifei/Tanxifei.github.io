@@ -1,3 +1,8 @@
+---
+layout: article
+title: Document - Writing Posts
+mathjax: true
+---
 # TanXifei Seewo System V2.1 P2
 
 2022.12.16
